@@ -30,7 +30,7 @@
     <item>45</item>
     <item>50</item>
   </integer-array>
-  <string-array name="a_f_0.05">
+  <string-array name="a5">
     <item>1.153</item>
     <item>1.463</item>
     <item>1.672</item>
@@ -60,7 +60,7 @@
     <item>2.914</item>
     <item>2.956</item>
   </string-array>
-  <string-array name="a_f_0.01">
+  <string-array name="a1">
     <item>1.155</item>
     <item>1.492</item>
     <item>1.749</item>

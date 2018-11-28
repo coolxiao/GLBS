@@ -16,7 +16,7 @@
         android:id="@+id/input_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入3到50个数，并用,号隔开"
+        android:hint="请输入3到50个数，并用英文的,号隔开"
         android:textSize="24sp"
         />
     <RadioGroup
@@ -29,6 +29,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="α:0.05"
+          android:checked="true"
           android:textSize="24sp"
           />
       <RadioButton
