@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GLBS.iml" filepath="$PROJECT_DIR$/GLBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GLBS.iml" filepath="$PROJECT_DIR$/.idea/GLBS.iml" />
+      <module fileurl="file://D:\Android\AndroidStudioProject\GLBS\GLBS.iml" filepath="D:\Android\AndroidStudioProject\GLBS\GLBS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Android\AndroidStudioProject\GLBS\app\app.iml" filepath="D:\Android\AndroidStudioProject\GLBS\app\app.iml" />
     </modules>
   </component>
 </project>

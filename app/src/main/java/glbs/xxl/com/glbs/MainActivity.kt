@@ -9,6 +9,10 @@ import kotlinx.android.synthetic.main.activity_main.radio_group
 
 class MainActivity : AppCompatActivity() {
   var a: Float? = null
+  var numberArray = resources.getIntArray(R.array.number)
+  var a_f_5 = resources.getStringArray(R.array.a_f_0_05)
+  var a_f_1 = resources.getStringArray(R.array.a_f_0_01)
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
@@ -35,12 +39,15 @@ class MainActivity : AppCompatActivity() {
           return@setOnClickListener
         }
       }
+    }
+
+    fun make(list: ArrayList<Float>) {
       var total = 0f
       list.forEach {
         total += it
       }
 
-      val average = total / numbers.size
+      val average = total / list.size
 
       //差值平方集合
       var diff2total = 0f
@@ -49,6 +56,12 @@ class MainActivity : AppCompatActivity() {
       }
 
       var s = diff2total / (list.size - 1)
+
+      list.forEach {
+        var index = a_f_5.indexOf(list.size.toString())
+        var a5 = a_f_5[index].toFloat()
+        var a1 = a_f_1[index].toFloat()
+      }
     }
   }
 }
