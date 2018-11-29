@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="glbs.xxl.com.glbs.MainActivity"
+    tools:context="glbs.xxl.com.glbs.HomeActivity"
     >
   <LinearLayout
       android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:id="@+id/input_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入3到50个数，并用英文的,号隔开"
+        android:hint="请输入3到50个数，并用空格隔开"
         android:textSize="24sp"
         />
     <RadioGroup

@@ -100,7 +100,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void makeNumbers() {
-        String[] split = editText.getText().toString().split(",");
+        String[] split = editText.getText().toString().split("\\s+");
         if (split.length < 3) {
             Toast.makeText(this, "请输入3到50个数", Toast.LENGTH_LONG).show();
             return;

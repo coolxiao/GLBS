@@ -4,9 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GLBS.iml" filepath="$PROJECT_DIR$/GLBS.iml" />
       <module fileurl="file://D:\Android\GLBS\.idea\GLBS.iml" filepath="D:\Android\GLBS\.idea\GLBS.iml" />
-      <module fileurl="file://D:\Android\AndroidStudioProject\GLBS\GLBS.iml" filepath="D:\Android\AndroidStudioProject\GLBS\GLBS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Android\AndroidStudioProject\GLBS\app\app.iml" filepath="D:\Android\AndroidStudioProject\GLBS\app\app.iml" />
     </modules>
   </component>
 </project>
